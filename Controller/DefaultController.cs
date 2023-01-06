@@ -166,6 +166,8 @@ namespace WebAPI.Controller
             public DateTime endDate { get; set; }
         }
     }
+
+    // This method is used for sorting the records.
     public static class SortingExtend
     {
         public static IQueryable<T> Sort<T>(this IQueryable<T> source, string sortBy)
