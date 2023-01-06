@@ -87,6 +87,8 @@ namespace WebAPI.Controller
                 return TaskData.GetTree();
             }
         }
+
+        // This method is used to generate the query. Based on the query values records are fetched.
         public DataRequest QueryGenerator(IQueryCollection queryString)
         {
             DataRequest req = new DataRequest();
@@ -104,6 +106,7 @@ namespace WebAPI.Controller
             return req;
         }
 
+        // This method is used to fetch child records also on load time when LoadChildOnDemand is enabled.
         private void AppendChildren(List<TaskData> ChildRecords, TaskData ParentItem, Dictionary<string, List<TaskData>> GroupData)
         {
             var queryString = Request.Query;
