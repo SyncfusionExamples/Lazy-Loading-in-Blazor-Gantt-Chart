@@ -1,0 +1,12 @@
+﻿@page "/"
+@using WebAPI.Data
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Gantt
+
+<SfGantt TValue="TaskData" Height="450px" Width="1000px" LoadChildOnDemand="false">
+   <SfDataManager Url="api/Default" Adaptor="Adaptors.WebApiAdaptor"></SfDataManager>
+   <GanttTaskFields Id="ID" Name="TaskName" StartDate="StartDate" EndDate="EndDate"
+        Duration="Duration" Dependency="Predecessor" ParentID="ParentId" HasChildMapping="isParent">
+   </GanttTaskFields>
+</SfGantt>
