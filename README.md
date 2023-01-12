@@ -1,5 +1,4 @@
-# Lazy-Loading-in-Blazor-Gantt-Chart
-
+# Load on Demand: A Solution for Efficiently Handling Large Datasets in Blazor Gantt Chart  
 The Syncfusion Blazor Gantt Chart allows you to render DOM elements effectively using virtualization support in the default remote dataset. We have already discussed boosting performance with virtualization in the blog below.
 
 https://www.syncfusion.com/blogs/post/boosting-performance-of-blazor-gantt-chart-using-virtualization.aspx 
@@ -22,3 +21,6 @@ Record Count |With lazy loading | Without lazy loading
 1,00,000	|0.82 seconds |18 minutes 45 seconds
 
 `Note:` Above metrics may vary depend on machine performance and RAM free space.
+
+### Reference
+For more details, refer to the Load on demand in Blazor Gantt Chart in live demo and documentation.
