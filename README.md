@@ -23,4 +23,4 @@ Record Count |With lazy loading | Without lazy loading
 `Note:` Above metrics may vary depend on machine performance and RAM free space.
 
 ### Reference
-For more details, refer to the Load on demand in Blazor Gantt Chart in live demo and documentation.
+For more details, refer to the [Load on demand in Blazor Gantt Chart in live demo](https://blazor.syncfusion.com/demos/gantt-chart/load-on-demand) and [documentation](https://blazor.syncfusion.com/documentation/gantt-chart/data-binding#load-child-on-demand).
