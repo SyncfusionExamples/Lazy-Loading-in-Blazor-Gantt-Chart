@@ -10,7 +10,7 @@
        <PackageReference Include="Syncfusion.Blazor.Core" Version="20.4.0.42" />
        <PackageReference Include="Syncfusion.Blazor.Gantt" Version="20.4.0.42" />
        <PackageReference Include="Syncfusion.Blazor.Themes" Version="20.4.0.42" />
-       <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.0" />
+       <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.0.2" />
        <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
        <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
        <PackageReference Include="Microsoft.NETCore" Version="5.0.0" />
