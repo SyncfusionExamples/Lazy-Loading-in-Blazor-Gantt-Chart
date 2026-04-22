@@ -35,6 +35,22 @@ Record Count |With lazy loading | Without lazy loading
 
 `Note:` Above metrics may vary depend on machine performance and RAM free space.
 
+## Prerequisites
+
+- Visual Studio 2022 (or later)
+- .NET SDK 8.0 or later
+- Syncfusion Blazor Gantt NuGet package
+- A valid Syncfusion license (Community or Trial)
+
+## How to run the project
+
+- Clone or download this repository to your local system.
+- Open the project file (.csproj) in Visual Studio 2022 or later.
+- Restore the required NuGet packages.
+- Build the project to ensure there are no compilation errors.
+- Run the application.
+- Navigate to the page hosting the Gantt Chart and explore lazy loading.
+
 ## Reference
 
 - [Live Demo- Load on Demand](https://blazor.syncfusion.com/demos/gantt-chart/load-on-demand) 
