@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.15" />
+    <PackageReference Include="Syncfusion.Blazor.Data" Version="33.1.44" />
+    <PackageReference Include="Syncfusion.Blazor.Gantt" Version="33.1.44" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="33.1.44" />
+  </ItemGroup>
+
+</Project>
